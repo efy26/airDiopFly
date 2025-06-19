@@ -19,7 +19,7 @@ export default function Footer() {
                 </a>
             </div>
             <p id="copyrigth" className="mt-10">
-                &copy; 2025 Gym-app, créer par le groupe gym-app.
+                &copy; 2025 Air Diop Fly
             </p>
         </footer>
     );

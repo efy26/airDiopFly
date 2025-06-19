@@ -5,13 +5,16 @@ export default function NavBar() {
         <nav>
             <ul id="menu-liens">
                 <li className="cursor-pointer" >
-                    <Link href="/">Home</Link>
+                    <Link href="/">Accueil</Link>
                 </li>
                 <li className="cursor-pointer" >
-                    <Link href="/training">Training</Link>
+                    <Link href="/ConsultationReservation">Consultation/Reservation</Link>
                 </li>
                 <li className="cursor-pointer" >
-                    <Link href="/about">About</Link>
+                    <Link href="/TableauDeBord">Tableau de bord</Link>
+                </li>
+                <li className="cursor-pointer" >
+                    <Link href="/about">À propos</Link>
                 </li>
                 <li className="cursor-pointer" >
                     <Link href="/contact">Contact</Link>

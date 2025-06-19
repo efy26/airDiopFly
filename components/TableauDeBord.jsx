@@ -7,9 +7,9 @@ export default function About() {
             <SectionUniverselle/>
             <div id='about-container' className='flex justify-center'>
                     <div id='about-page'>
-                        <h1 id='titre-page-about'>ABOUT</h1>
+                        <h1 id='titre-page-about'>Tableau de bord</h1>
                         <div>
-
+                            
                         </div>
                     </div>
             </div>

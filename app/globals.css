@@ -19,9 +19,42 @@ header {
   position: fixed;
   min-width: 100%;
   z-index: 100;
+  display: flex;
+  gap: 5rem;
+  padding-left: 1rem;
 }
 main {
   margin-top: 10rem;
+}
+#section-form-recherche {
+  display: flex;
+  justify-content: center;
+}
+#form-recherche {
+  font-family:    serif;
+  margin-top: 1rem;
+  width: 30%;
+}
+#form-recherche-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+}
+#form-recherche-container div{
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+}
+#form-recherche-container  input{
+  background-color: rgb(231, 231, 231);
+}
+#form-recherche-container  input:focus{
+  outline-style: dotted;
+  outline-color: rgb(211, 137, 0);
+}
+#btn-recherche {
+  background-color: rgb(211, 137, 0);
 }
 #citation-home {
   font-size: 1.2rem;
@@ -37,8 +70,7 @@ footer {
   color: black;
 }
 #logo {
-  opacity: 0.8;
-  border-radius: 50%;
+  border-radius: 1rem;
 }
 #link-home, #link-section-universelle {
   border-radius: 50%;

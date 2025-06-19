@@ -13,7 +13,7 @@ export default function Contact() {
                             <p>400 rue normand</p>
                             <p>J8Y 5C5, Gatineau, QC</p>
                             <p>Tel : 819-765-8600</p>
-                            <p>E-mail : gym-app@gmail.com</p>
+                            <p>E-mail : airdiopfly@gmail.com</p>
                         </span>
                             <form>
                                 <div id='block-form'>
