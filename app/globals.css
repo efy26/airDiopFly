@@ -75,8 +75,7 @@ select,
 }
 
 #section-un {
-  display: flex;
-  justify-content: end;
+  position: relative;
   width: 100%;
   padding-bottom: 1rem;
   height: 90vh;
@@ -85,15 +84,28 @@ select,
 }
 
 #citation-home {
-  font-size: 1.2rem;
-  background-color: rgba(0, 0, 0, 0.134);
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: .8rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+  width: 30rem;
+}
+#citation-home-2 {
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  font-size: .8rem;
   padding: 1rem;
   border-radius: .5rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: rgb(255, 255, 255);
   width: 40rem;
 }
-
 footer {
   margin-top: 5rem;
   font-family: Courier, monospace;
@@ -341,7 +353,7 @@ textarea {
   }
 
   #menu-liens-mobile {
-    opacity: 1;
+    /* opacity: 1; */
     pointer-events: unset;
     transition: all 0.5s ease-in-out;
   }
@@ -402,7 +414,7 @@ textarea {
     width: 100%;
   }
 
-  #citation-home {
+  #citation-home, #citation-home-2 {
     width: 95%;
     font-size: 1rem;
     line-height: 1.2rem;
