@@ -24,16 +24,19 @@ export default function NavBar() {
           <Link href="/">Accueil</Link>
         </li>
         <li className="cursor-pointer">
-          <Link href="/ConsultationReservation">Reservation</Link>
+          <Link href="/consultationReservation">Reservation</Link>
         </li>
         <li className="cursor-pointer">
-          <Link href="/TableauDeBord">Tableau de bord</Link>
+          <Link href="/tableauDeBord">Tableau de bord</Link>
         </li>
         <li className="cursor-pointer">
           <Link href="/about">À propos</Link>
         </li>
         <li className="cursor-pointer">
           <Link href="/contact">Contact</Link>
+        </li>
+        <li className="cursor-pointer">
+          <Link href="/connexion">Connexion</Link>
         </li>
       </ul>
       <ul id="menu-liens-mobile">
@@ -67,6 +70,9 @@ export default function NavBar() {
         </li>
         <li className="cursor-pointer">
           <Link href="/contact">Contact</Link>
+        </li>
+        <li className="cursor-pointer">
+          <Link href="/connexion">Connexion</Link>
         </li>
       </ul>
     </nav>
