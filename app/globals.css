@@ -28,39 +28,44 @@ header {
 main {
   margin-top: 10rem;
 }
-
+#from-connexion h2, #from-connexion label, #from-connexion p, #from-connexion button{
+ font-family: Courier;
+}
+#from-connexion h2, #from-connexion label{
+  font-weight: bolder;
+}
 #section-form-recherche {
   display: flex;
   justify-content: center;
 }
 
 #form-recherche {
-  font-family: serif;
+  font-family: Courier, Arial, Helvetica, sans-serif;
   margin-top: 1rem;
-  width: 30rem;
 }
-
-#form-recherche-container {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+#form-recherche h2{
+  color: rgb(233, 177, 74, 0.625)
+}
+#form-recherche form {
   width: 100%;
 }
-
-#form-recherche-container div {
+#form-recherche-container {
+  display: flex;
+  gap: 1rem;
+}
+#recherche-select {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
-
-#form-recherche-container input,
-#form-recherche-container select {
-  background-color: rgb(231, 231, 231);
+#recherche-input {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  
 }
-
-#form-recherche-container input:focus,
-#form-recherche-container select:focus {
-  outline-style: dotted;
-  outline-color: rgb(211, 137, 0);
+#recherche-container-btn {
+  margin-top: 1rem;
 }
 
 select,
@@ -68,10 +73,10 @@ select,
 #btn-recherche {
   height: 2.5rem;
   padding: .5rem;
+  color: gray;
 }
-
 #btn-recherche {
-  background-color: rgb(211, 137, 0);
+  color: white;
 }
 
 #section-un {
@@ -87,22 +92,21 @@ select,
   position: absolute;
   right: 1rem;
   top: 1rem;
-  font-size: .8rem;
+  font-size: 1.5rem;
   padding: 1rem;
   border-radius: .5rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: cursive, serif;
   color: rgb(255, 255, 255);
   width: 30rem;
 }
 #citation-home-2 {
   position: absolute;
   left: 1rem;
-  right: 1rem;
   bottom: 1rem;
-  font-size: .8rem;
+  font-size: 1.5rem;
   padding: 1rem;
   border-radius: .5rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: cursive, serif;
   color: rgb(255, 255, 255);
   width: 40rem;
 }
@@ -143,7 +147,7 @@ nav {
 #menu-liens-mobile {
   position: absolute;
   flex-direction: column;
-  display: none;
+  display: flex;
   gap: 1.5rem;
   top: 6.6rem;
   right: 0;
@@ -347,13 +351,13 @@ textarea {
 }
 
 /* Responsive */
-@media screen and (max-width: 43rem) {
+@media screen and (max-width: 50rem) {
   #menu-liens {
     display: none;
   }
 
   #menu-liens-mobile {
-    /* opacity: 1; */
+    opacity: 0;
     pointer-events: unset;
     transition: all 0.5s ease-in-out;
   }
@@ -375,9 +379,17 @@ textarea {
   }
 
   #form-recherche {
-    width: 60%;
+    width: 100%;
   }
-
+  #form-recherche-container {
+  display: flex;
+  flex-direction: column;
+}
+select,
+#form-recherche-container input,
+#btn-recherche {
+  width: 100%;
+}
   #contact-form {
     display: flex;
     flex-direction: column;
@@ -414,10 +426,12 @@ textarea {
     width: 100%;
   }
 
-  #citation-home, #citation-home-2 {
+  #citation-home{
     width: 95%;
-    font-size: 1rem;
-    line-height: 1.2rem;
+    line-height: 1.7rem;
+  }
+  #citation-home-2 {
+    display: none;
   }
 
   #contact-page,

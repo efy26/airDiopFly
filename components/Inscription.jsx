@@ -8,7 +8,7 @@ export default function Connexion() {
       <SectionUniverselle />
 
       <div className="flex items-center justify-center mt-10">
-        <form className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+        <form id="from-connexion" className="bg-white p-8 rounded-lg shadow-md w-full max-w-90">
           <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">
             Inscription
           </h2>

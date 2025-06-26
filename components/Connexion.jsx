@@ -7,15 +7,15 @@ export default function Connexion() {
     <div className="flex flex-col">
       <SectionUniverselle />
       
-          <div className="flex items-center justify-center mt-10">
-            <form className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
-              <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">
+          <div className="flex items-center  justify-center mt-10">
+            <form id="from-connexion" className="bg-white p-8 rounded-lg shadow-md w-full max-w-90">
+              <h2 className="text-2xl font-courier mb-6 text-center text-gray-800">
                 Connexion
               </h2>
               <div className="mb-4">
                 <label
                   htmlFor="email"
-                  className="block mb-2 text-gray-700 font-semibold"
+                  className="block mb-2 text-gray-700 "
                 >
                   Email
                 </label>
@@ -28,7 +28,7 @@ export default function Connexion() {
               <div className="mb-6">
                 <label
                   htmlFor="password"
-                  className="block mb-2 text-gray-700 font-semibold"
+                  className="block mb-2 text-gray-700"
                 >
                   Mot de passe
                 </label>

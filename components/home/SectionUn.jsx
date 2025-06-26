@@ -21,8 +21,8 @@ export default function SectionUn() {
       >
         Notre système
         assure une coordination fluide entre passagers, vols et
-        compagnies.Gagnez du temps grâce à une interface intuitive et des outils
-        puissants.Avec nous, chaque vol est sous contrôle du décollage à
+        compagnies. Gagnez du temps grâce à une interface intuitive et des outils
+        puissants. Avec nous, chaque vol est sous contrôle du décollage à
         l’atterrissage.
       </p>
     </section>
