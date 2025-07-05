@@ -1,11 +1,17 @@
 import React from "react";
 import Link from "next/link";
-import SectionUniverselle from "@/components/home/SectionUniverselle";
 
 export default function Connexion() {
   return (
     <div className="flex flex-col">
-      <SectionUniverselle />
+       <div className="relative">
+        <img 
+          src="/img/Con.webp" 
+          alt="Connexion AirDiop Fly" 
+          className="w-full h-[700px] object-cover"
+        />
+      </div>
+   
       
           <div className="flex items-center  justify-center mt-10">
             <form id="from-connexion" className="bg-white p-8 rounded-lg shadow-md w-full max-w-90">
